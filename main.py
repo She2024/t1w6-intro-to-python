@@ -32,10 +32,32 @@ print("Dont forget to commit")
 #print (7 % 2)
 
 #string
-"Hello world"
-'Hello'
-print("this is a string")
+#"Hello world"
+#'Hello'
+#print("this is a string")
 
 # Sting concatenations, addition, join
-print("Hello" + "world")
-print("3" + "5")
+#print("Hello" + "world")
+#print("3" + "5")
+
+# Boolean
+#True
+#False
+#print(type(False))
+#0 # falsy value
+#"" # falsy value
+#print(bool(0))
+#print(bool(""))
+#print(bool(-123))
+#print(bool(False))
+
+# Comparison operators < (less than), > (grater than), <=, >=, == (equal), != (not equal)
+#print(2 < 3)
+#print(5 >= 5)
+#print("Hello".lower())
+#print("Hello".lower() == "hello")
+
+#logical operators and, or, not
+print(True and False) # AND returns True when both operators are True
+print (False or True) # OR returns True, when one or both of the operators are True
+print(not False) # NOT returns the opposite value
